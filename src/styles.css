@@ -2,14 +2,22 @@
   font-family: sans-serif;
   text-align: center;
 }
+
 div {
-  border: 1px solid black;
 }
 
 #todo_list {
   display: grid;
-  grid-template-columns: 50%;
+  grid-template-columns: 80%;
   grid-auto-rows: 50px;
   text-align: center;
+  font-size: 30px;
+}
+
+button {
+  font-size: 20px;
+}
+
+input {
   font-size: 20px;
 }
